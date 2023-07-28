@@ -15,34 +15,33 @@ class PDM_Template():
 
     def body(self):
         return {
-            'part_number': '件號', # 文字
+            'part_number':    '件號', # 文字
             'serial_number': '序號', #
-            'bom_level': '階數',
-            'make_type': '製造類別',
-            'main_type': '主品號',
-            'drawing_book': '圖冊',
-            'drawing_no': '圖號',
+            'bom_level':     '階數',
+            'make_type':     '製造類別',
+            'main_type':     '主品號',
+            'drawing_book':  '圖冊',
+            'drawing_no':    '圖號',
             'drawing_version': '版次',
-            'part_no': '品號',
-            'part_name': '工程品名',
-            'part_spec': '規格',
+            'part_no':       '品號',
+            'part_name':     '工程品名',
+            'part_spec':     '規格',
             'part_material': '材質',
-            'make_htr': '熱處理',
-            'make_step': '製程',
+            'make_htr':      '熱處理',
+            'make_step':     '製程',
             'check_pd_type': '品號檢查',
             'check_pd_no':   '品號類別',
-            'check_pd_box': '庫別',
+            'check_pd_box':  '庫別',
             'part_quantity': '用量',
-            'salse_type': '供貨狀態',
-            'bom_type': 'BOM狀態',
-            'bom_assemble': '組件',
-            'part_attr': '工程屬性',
+            'salse_type':    '供貨狀態',
+            'bom_type':      'BOM狀態',
+            'bom_assemble':  '組件',
+            'part_attr':     '工程屬性',
             'part_attr_remove': '移除屬性',
             'part_attr_backup': '屬性備選',
             'part_attr_low': '用料規則',
-            'part_child': '子零件',
+            'part_child':    '子零件',
         }
-
 
 def test1():
     temp = PDM_Template()
